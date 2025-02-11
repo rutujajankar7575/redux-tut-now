@@ -28,6 +28,53 @@
   color: #61dafb;
 }
 
+/*  */
+
+.cart-wrapper {
+  width: 500px;
+  height: 150px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+.img-wrapper img{
+  width: 100px;
+  margin-top: -10px;
+}
+.btn-wrapper button{
+  background-color: red;
+  border-radius: 5px;
+  padding: 2px;
+  width: 100px;
+  height: 30px;
+  border: 0px;
+  color: #fff;
+  box-shadow: #333 0px 2px 3px;
+  margin-bottom: 20px;
+}
+
+.item{
+  display: inline-block;
+  width: 120px;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-cart img{
+  width: 120px;
+  position: absolute;
+  /* margin-right: 5%; */
+  right: 1%;
+  top: 1%;
+}
+.cart-count{
+  position: absolute;
+    right: 3%;
+    top: 11%;
+    background-color: red;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+}
+/*  */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
